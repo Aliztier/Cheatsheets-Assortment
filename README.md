@@ -1,2 +1,2 @@
 # bootcamp-notes
-a collection of ref materials
+a collection of ref material or the coding bootcamp
