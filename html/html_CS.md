@@ -13,15 +13,15 @@
 ### Everything that can go in the `<head>` tag :
 ```html
 <head>
-	<title>HTML CheatSheet<title> <!-- (Required) gives title to page and appears in tab -->
-	<meta name="value" pairs> <!-- Always in <head>, provides information about the data -->
-	<meta name="description" content="Descriptive HTML CheatSheet"> <!-- The content attribute MUST be defined if the name is defined -->
-	<style type="text/css">
+  <title>HTML CheatSheet<title> <!-- (Required) gives title to page and appears in tab -->
+  <meta name="value" pairs> <!-- Always in <head>, provides information about the data -->
+  <meta name="description" content="Descriptive HTML CheatSheet"> <!-- The content attribute MUST be defined if the name is defined -->
+  <style type="text/css">
 		h1 {color:red;}
-    </style> <!-- Defines style information for an HTML document -->
-    <link rel="icon" href="favicon.io"> <!-- Defines a link between a document and an external resource. -->
-    <script > 
-    </script> <!-- Used to embed or refer to JavaScript code -- >
+  </style> <!-- Defines style information for an HTML document -->
+  <link rel="icon" href="favicon.io"> <!-- Defines a link between a document and an external resource. -->
+  <script > 
+  </script> <!-- Used to embed or refer to JavaScript code -- >
 </head>
 ```
 \*Best Practice* :
@@ -32,7 +32,7 @@
 ### In the `<body>` tag a whole array of data can be passed through a variety of tags/elements. The following tags/elements are used to section and outline the page:
 ``` html 
 <body>
-	<header>
+    <header>
     </header> <!-- Typically contains the logo, title, and (navigation.)-->
     
     <nav>
@@ -55,8 +55,8 @@
         </div> <!-- Defines a division or a section in an document usually for CSS hooks (non-semantic wrapper)-->
     </main> <!-- Specifies the main content of a document.-->
 
-	<footer>
-	</footer> <!-- Typically contains the copyright, legal notices and sometimes some links-->
+    <footer>
+    </footer> <!-- Typically contains the copyright, legal notices and sometimes some links-->
 </body>
 ```
 \*Best Practice* :
@@ -80,7 +80,7 @@
         <u>These tags underline content</u>, <i>these tags make content italics</i>, sed do eiusmod
         tempor <strong>these tags makes content bold </strong> et dolore magna aliqua. <b>these tags make content bold too</b>,
         quis nostrud <em>these tags makes content italics too </em> laboris nisi ut aliquip ex ea commodo
-        consequat. Duis <a href="http://google.com" target="_blank">this tag makes content become a link must include attributes and values</a> aute irure. <b>The following tags make format content so it's defined in human readable terms</b> Christmas is the <time>25<sup><!--Superscript-->th</sup> December</time>
+        consequat. Duis <a href="http://google.com" target="_blank">this tag makes content become a link must include attributes and values</a> aute irure. <b>The following tags make format content so it's defined in human readable terms</b> Christmas is the 		<time>25<sup><!--Superscript-->th</sup> December</time>
     </p>
   
    <!--HTML interactivity-->
@@ -92,7 +92,7 @@
    <!-- Quotations -->
     <blockquote>
        <p><i><a href=""><cite>These tags define the title of a work</cite></a> says:</i></p>
- 	  	<q>These tags define short quotation</q>
+       <q>These tags define short quotation</q>
     </blockquote> <!-- Specifies a section that is quoted from another source.-->
 
    <!--Abbreviation-->
@@ -141,8 +141,7 @@
         <picture> <!-- Used to give more flexibility in specifying image resources.-->
             <source srcset="" media="(min-width:650px)"> <!-- Used to specify multiple media resources for media elements-->
             <img src="images/sample.jpg" alt="My Sample Image" width="auto"> <!-- Defines an image in an HTML page.-->
-        </picture>
-      
+	</picture>
  	    <figcaption>defines a caption for a <figure> element.</figcaption>
  	</figure>
     
